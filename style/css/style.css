@@ -17,10 +17,10 @@
 
 .text-box {
     text-align: right;
-    font-size: 1.6em;
+    font-size: 1.7em;
     background-color: #ffffff;
     border-radius: 20px;
-    padding: 5px;
+    padding: 5px 10px;
 
 }
 .d-box {
