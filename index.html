@@ -21,48 +21,52 @@
         </div>
         <div class="bg-info">
             <div class="box">
-                <div id="display" class="text-box">
-                    0
+                <div data-current-operand id="display" class="text-box">
+
                 </div>
                 <div class="btn-box">
-                    <button type="button" class="btn-calc">AC</button>
+                    <button data-all-clear type="button" class="btn-calc">AC</button>
                     <button class="btn-calc">-/+</button>
                     <button class="btn-calc">%</button>
-                    <button class="btn-calc last">/</button>
+                    <button data-operation class="btn-calc last">/</button>
                 </div>
                 <div class="btn-box pt-0">
-                    <button class="btn-calc" value="7">7</button>
-                    <button class="btn-calc" value="8">8</button>
-                    <button class="btn-calc" value="9">9</button>
-                    <button class="btn-calc last">x</button>
+                    <button data-number class="btn-calc" value="7">7</button>
+                    <button data-number class="btn-calc" value="8">8</button>
+                    <button data-number class="btn-calc" value="9">9</button>
+                    <button data-operation class="btn-calc last">x</button>
                 </div>
                 <div class="btn-box pt-0">
-                    <button class="btn-calc" value="4">4</button>
-                    <button class="btn-calc" value="5">5</button>
-                    <button class="btn-calc" value="6">6</button>
-                    <button class="btn-calc last">-</button>
+                    <button data-number class="btn-calc" value="4">4</button>
+                    <button data-number class="btn-calc" value="5">5</button>
+                    <button data-number class="btn-calc" value="6">6</button>
+                    <button data-operation class="btn-calc last">-</button>
                 </div>
                 <div class="btn-box pt-0">
-                    <button class="btn-calc" value="1" onclick="text()">1</button>
-                    <button class="btn-calc" value="2">2</button>
-                    <button class="btn-calc" value="3">3</button>
-                    <button class="btn-calc last">+</button>
+                    <button data-number class="btn-calc" value="1">1</button>
+                    <button data-number class="btn-calc" value="2">2</button>
+                    <button data-number class="btn-calc" value="3">3</button>
+                    <button data-operation class="btn-calc last">+</button>
                 </div>
                 <div class="btn-box pt-0">
-                    <button class="btn-calc btn-n0" value="0">0</button>
+                    <button data-number class="btn-calc btn-n0" value="0">0</button>
                     <button class="btn-calc">.</button>
-                    <button class="btn-calc last">=</button>
+                    <button data-equals class="btn-calc last">=</button>
                 </div>
                 <div class="btn-box dev-info">
                     <p class="mb-0">Developed by JOHN Chanthy</p>
                 </div>
             </div>
         </div>
+
+        <div class="square-box">
+            <p>lfdsa fds adfsaf dsafdsa fdsa</p>
+        </div>
     </div>
 
 
     <!-- script -->
     <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="bootstrap-5.1.3-dist/js/myscript.js"></script>
+    <script src="bootstrap-5.1.3-dist/js/script.js"></script>
 </body>
 </html>
